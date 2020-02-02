@@ -7,7 +7,7 @@
 \score {
 <<
 
-  \transpose ees ees {
+  \transpose ees f {
      
       \new Staff \with {
         instrumentName = #"Clarinette Bb "
@@ -15,6 +15,7 @@
       }
       \relative c'
       {
+
         \key ees \major
         \time 2/2
         \tempo 2 = 80
@@ -73,14 +74,61 @@
     instrumentName = #"Pichette Eb "
     shortInstrumentName = #"Pi. "
   }
-  \relative c
+  
+  \transpose ees c'
+  \relative c'
   {
-    \clef bass
+    \clef treble
     \key ees \major
-    \partial 4 c4
+    \partial 4 c4\p
     f2 g
     ees4 d8( c) b4 g 
-    c aes8( f) g g 
+    c aes8( f) g4 g 
+    c g ees c
+    f2 g4 g'~
+    g f8( ees) d4 bes
+    ees c8( aes) bes4 bes
+    ees,( bes' ees c')\mf
+    f,2 g
+    ees4 d8( c) b4 g 
+    c aes8( f) g4 g 
+    c g ees c
+    f2 g4 g'~
+    g f8( ees) d4 bes
+    ees c8( aes) bes4 bes
+    ees,2. ees'4\f
+    d2 c 
+    bes4 bes' aes g 
+    f des8( bes) c4 c,
+    f f' b, g'
+    c2 b
+    c a
+    bes4 c d d,
+    g(\> d  g, f')\!\p
+    e2 g
+    c,4 aes' d, b'
+    ees, c' f, d
+    g f ees d
+    c2 g
+    ees'4 d8( c) b4 g 
+    c aes8( f) g4 g
+    c,2. ees'4\f
+    d2 c 
+    bes4 bes' aes g 
+    f des8( bes) c4 c,
+    f f' b, g'
+    c2 b
+    c a
+    bes4 c d d,
+    g(\> d  g, f')\!\p
+    e2 g
+    c,4 aes' d, b'
+    ees, c' f, d
+    g f ees d
+    c2 g
+    ees'4 d8( c) b4 g 
+    c aes8( f) g4 g
+    c,2. \bar "||"
   }
 
 >>
