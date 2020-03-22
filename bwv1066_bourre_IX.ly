@@ -7,7 +7,7 @@
 \score {
 <<
 
-  \transpose ees ees {
+  \transpose ees f {
      
       \new Staff \with {
         instrumentName = #"Clarinette Bb "
@@ -104,10 +104,10 @@
     shortInstrumentName = #"Pi. "
   }
   
-  \transpose ees ees
-  \relative c
+  \transpose ees f
+  \relative c'
   {
-    \clef bass
+    \clef treble
     \key ees \major
     \partial 4 c4\p
     f2 g
