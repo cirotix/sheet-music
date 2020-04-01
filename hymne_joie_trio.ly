@@ -87,11 +87,10 @@ notesFlute = \relative c'' {
       \notesClar   
 
 >>
-  \layout {
-    ragged-last-bottom = ##f   
-  }
-  \midi {}
+  \layout {}
+ \midi {} 
 }
+
 }
 
 \bookpart{
