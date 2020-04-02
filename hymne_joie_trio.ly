@@ -6,13 +6,14 @@ notesSax =  \relative c'' {
       \mark \default
       b b c d d c b a g g a b b4. a8 a4 r b b c d d c b a g g a b a4. g8 g4 r
       \mark \default
-      r2 d'4\mf d d r d d d r fis fis e cis d fis g d g r g e e fis b, b c d c4. b8 b4 r 
+
+      d'4\mf d d d d d d d d d fis fis e cis d fis g d g r g e e fis b, b c d c4. b8 b4 r 
       \mark \default
       r1 r1 r1 r1 r1 r1 r1 r1 
       \mark \default
       b4\mf b c d d c b a g g a b b4. a8 a4 r b b c d d c b a g g a b a4. g8 g4 r
       \mark \default
-      a a b g a b8 c b4 g a b8 c b4 a g\< a d, b''\! 
+      a a b g a b8 c b4 g a b8 c b4 a g\< a d, b'\! 
       \mark \default
       b b c d d c b a g g a b a4. g8 g4 r
       \mark \default
@@ -54,10 +55,11 @@ notesFlute = \relative c'' {
       \mark \default
       d, d d r d d d r d d dis fis e\< a d, d'\! 
       \mark \default
-      g, g f fis e e c c d d d d d4. g8 g4 r 
+      g, g fis fis e e c c d d d d d4. g8 g4 r 
       \mark \default
       \override TextSpanner.bound-details.left.text = "rall."
       c,2\startTextSpan\mf c4\stopTextSpan c g1\fermata
+
 
 
   }
