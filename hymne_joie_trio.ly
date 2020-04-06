@@ -26,9 +26,9 @@ notesFlute = \relative c'' {
       \mark \default
       g\mp g a b b a g fis e e fis g g4. fis8 fis4 r  g g a b b a g fis e e fis g fis4. g8 g4 r
       \mark \default
-      a\f a b g a b8 c b4 g a b8 c b4 a g a d, b' b b c d d c b a g g a b a4. g8 g4 r
+      a'\f a b g a b8 c b4 g a b8 c b4 a g a d, b' b b c d d c b a g g a b a4. g8 g4 r
       \mark \default
-      g'\mp g a b b a g fis e e fis g g4. fis8 fis4 r g\p g a b b a g fis e e fis g fis4. g8 g4 r
+      g\mp g a b b a g fis e e fis g g4. fis8 fis4 r g\p g a b b a g fis e e fis g fis4. g8 g4 r
       \mark \default
       r2 g4 d g r g d r1 r2 fis4 d r2 g4 d g r g d r1 fis4. g8 g4 r 
       \mark \default
@@ -55,7 +55,7 @@ notesFlute = \relative c'' {
       \mark \default
       d, d d r d d d r d d dis fis e\< a d, d'\! 
       \mark \default
-      g, g fis fis e e c c d d d d d4. g8 g4 r 
+      g, g f f e e c c d d d d d4. g8 g4 r 
       \mark \default
       \override TextSpanner.bound-details.left.text = "rall."
       c,2\startTextSpan\mf c4\stopTextSpan c g1\fermata
@@ -80,18 +80,22 @@ notesFlute = \relative c'' {
 \score {
 \new StaffGroup <<
    \new Staff \with {
-         instrumentName = #"Saxophone S. "
+        instrumentName = #"Saxophone S. "
         shortInstrumentName = #"Sax."
+        midiInstrument = "soprano sax"
       }
     \notesSax
      \new Staff \with {
         instrumentName = #"Flûte "
         shortInstrumentName = #"Fl. "
+        midiInstrument = "flute"
+
       }
       \notesFlute
      \new Staff \with {
         instrumentName = #"Clarinette "
         shortInstrumentName = #"Cl. "
+        midiInstrument = "clarinet"
       }
       \notesClar   
 
